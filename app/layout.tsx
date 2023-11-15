@@ -10,7 +10,7 @@ import Navigation from "@/components/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home | Brian Ruiz",
+  title: "Home | Arhim Emmanuel",
   description:
     "I am a full-stack software engineer who basically just enjoys creating things.",
 };
@@ -25,18 +25,14 @@ export default function RootLayout({
       <body
         className={clsx(
           inter.className,
-          "antialiased bg-primary text-primary width-full"
+          "width-full bg-primary text-primary antialiased",
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-        >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navigation />
           <div
             className={
-              "px-6 md:px-6 pt-16 pb-24 md:pt-20 md:pb-44 max-w-[700px] mx-auto"
+              "mx-auto max-w-[700px] px-6 pb-24 pt-16 md:px-6 md:pb-44 md:pt-20"
             }
           >
             {children}
