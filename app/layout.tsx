@@ -10,7 +10,7 @@ import Navigation from "@/components/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home | Arhim Emmanuel",
+  title: "Home | Arhin Emmanuel",
   description:
     "I am a full-stack software engineer who basically just enjoys creating things.",
 };
