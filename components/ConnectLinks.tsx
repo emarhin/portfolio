@@ -37,11 +37,11 @@ const ConnectLinks: ConnectLink[] = [
       </svg>
     ),
   },
-  {
-    label: "YouTube",
-    href: "https://www.youtube.com/@brianruizy",
-    icon: <FaYoutube />,
-  },
+  // {
+  //   label: "YouTube",
+  //   href: "https://www.youtube.com/@brianruizy",
+  //   icon: <FaYoutube />,
+  // },
   {
     label: "GitHub",
     href: "https://github.com/emarhin",
