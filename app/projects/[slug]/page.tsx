@@ -70,7 +70,7 @@ export default function Project({ params }: { params: any }) {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6">
+        {/* <div className="flex flex-col gap-6">
           <h2>Contact</h2>
           <p className="max-w-lg text-secondary">
             Need more project details, or interested in working together? Reach
@@ -80,7 +80,7 @@ export default function Project({ params }: { params: any }) {
             </a>
             . I&apos;d be happy to connect!{" "}
           </p>
-        </div>
+        </div> */}
 
         <Link href="/projects" className="text-primary underline">
           ← All Projects
