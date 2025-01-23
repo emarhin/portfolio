@@ -71,7 +71,7 @@ export default function About() {
       >
         <Section heading="About" headingAlignment="left">
           <div className="flex flex-col gap-6">
-            <p>Hello world, I&apos;m Emmanuel Arhin!</p>
+            <p>Hello world, I am Emmanuel Arhin!</p>
 
             <p>
               Hi, I'm Arhin Emmanuel, a software engineer who loves building
