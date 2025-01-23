@@ -16,7 +16,7 @@ import meLily from "public/gallery/me-lily.jpg";
 import colorado from "public/gallery/colorado.jpg";
 
 export const metadata: Metadata = {
-  title: "About | Brian Ruiz",
+  title: "About | Emmanuel Arhin",
   description:
     "I am a full-stack software engineer who basically just enjoys creating things.",
 };
@@ -29,46 +29,44 @@ export default function About() {
           About Me
         </h1>
         <p
-          className="text-secondary animate-in"
+          className="animate-in text-secondary"
           style={{ "--index": 1 } as React.CSSProperties}
         >
           Just a quick glimpse.
         </p>
       </div>
-      <div className="lg:hidden mb-8">
+      <div className="mb-8 lg:hidden">
         <div
           className="animate-in"
           style={{ "--index": 1 } as React.CSSProperties}
         >
-          <Image
+          {/* <Image
             src={meLily}
             alt={"me and lily"}
             width={324}
             height={139}
             className="relative h-60 inset-0 object-cover bg-gray-400 shadow-md pointer-events-none rounded-2xl -rotate-6"
             priority
-          />
+          /> */}
         </div>
 
         <div
           className="animate-in"
           style={{ "--index": 2 } as React.CSSProperties}
         >
-          <Image
+          {/* <Image
             src={colorado}
             alt={"me and lily"}
             width={220}
             height={260}
             className="absolute w-48 inset-0 object-cover bg-gray-400 shadow-md pointer-events-none rounded-2xl rotate-6 left-[45%] md:left-[60%] md:w-56 -top-48"
             priority
-          />
+          /> */}
         </div>
       </div>
-      <div className="hidden lg:block">
-        <Gallery />
-      </div>
+      <div className="hidden lg:block">{/* <Gallery /> */}</div>
       <div
-        className="flex flex-col gap-16 animate-in md:gap-24"
+        className="flex animate-in flex-col gap-16 md:gap-24"
         style={{ "--index": 3 } as React.CSSProperties}
       >
         <Section heading="About" headingAlignment="left">
@@ -79,7 +77,7 @@ export default function About() {
               I have a passion for design and am always looking for ways to
               incorporate it into my engineering work.
             </p>
-            <p>
+            {/* <p>
               In addition to coding, I also make{" "}
               <Link
                 className="underline"
@@ -89,7 +87,7 @@ export default function About() {
               </Link>{" "}
               videos, where I focus on tech gear, creative vlogs, and a bit of
               personal development.
-            </p>
+            </p> */}
             <p>
               When I&apos;m not at my desk I am probably lifting weights,
               playing soccer, or at a coffee shop :)
@@ -98,20 +96,17 @@ export default function About() {
         </Section>
 
         <Section heading="Connect" headingAlignment="left">
-          <div className="flex flex-col w-full gap-8">
+          <div className="flex w-full flex-col gap-8">
             <p>
               Have a question or just want to chat? Feel free to{" "}
-              <Link href="mailto:contact@b-r.io" >
-                email me
-              </Link>
-              . Try finding me anywhere else at @brianruizy
+              <Link href="mailto:emma1arhin@gmail.com">email me</Link>
             </p>
-            <ul className="flex-grow grid grid-cols-1 md:grid-cols-2 gap-2 animated-list">
+            <ul className="animated-list grid flex-grow grid-cols-1 gap-2 md:grid-cols-2">
               {ConnectLinks.map((link) => (
-                <li className="transition-opacity col-span-1" key={link.label}>
+                <li className="col-span-1 transition-opacity" key={link.label}>
                   <Link
                     href={link.href}
-                    className="transition-opacity no-underline w-full border rounded-lg p-4 border-primary inline-grid"
+                    className="inline-grid w-full rounded-lg border border-primary p-4 no-underline transition-opacity"
                   >
                     <div className="flex items-center gap-3">
                       <span className="text-xl">{link.icon}</span>
@@ -120,7 +115,7 @@ export default function About() {
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
                         fill="currentColor"
-                        className="w-5 h-5 ml-auto text-secondary"
+                        className="ml-auto h-5 w-5 text-secondary"
                       >
                         <path
                           fillRule="evenodd"
@@ -137,7 +132,7 @@ export default function About() {
         </Section>
 
         <Section heading="Work" headingAlignment="left">
-          <div className="flex flex-col w-full gap-8">
+          <div className="flex w-full flex-col gap-8">
             <p>
               {new Date().getFullYear() - 2019}+ years of professional
               development experience.
@@ -146,11 +141,7 @@ export default function About() {
               I started my career teaching others how to code, which I will
               always be appreciative of. Then I worked at a few small local
               companies. Now I&apos;m a full stack engineer currently working at{" "}
-              <Link
-                className="underline"
-                href="https://hines.com"
-
-              >
+              <Link className="underline" href="https://hines.com">
                 Hines
               </Link>
               , one of the largest private real estate investors in the world.
