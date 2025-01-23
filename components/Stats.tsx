@@ -58,7 +58,7 @@ export default function Stats() {
       <li className="transition-opacity">
         <Link
           className="flex items-center gap-3 no-underline"
-          href={"https://github.com/brianruizy"}
+          href={"https://github.com/emarhin"}
         >
           <FaGithub className="text-xl" />
           <div>
