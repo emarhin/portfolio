@@ -82,7 +82,7 @@ export default function About() {
 
             <p>
               When I am not at my desk I am probably lifting weights, playing
-              soccer, or at a coffee shop :)
+              soccer, or at a coffee shop
             </p>
           </div>
         </Section>
