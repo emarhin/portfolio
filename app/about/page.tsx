@@ -76,7 +76,7 @@ export default function About() {
             <p>Hello world, I am Emmanuel Arhin!</p>
 
             <p>
-              Hi, I'm Arhin Emmanuel, a software engineer who loves building
+              Hi, I am Arhin Emmanuel, a software engineer who loves building
               cool things with code. In addition to coding, n my free time, I
               enjoy teaching coding to non-programmers,alongside where I focus
               on tech, creative vlogs, and personal development.
