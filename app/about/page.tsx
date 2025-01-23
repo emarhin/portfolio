@@ -79,20 +79,10 @@ export default function About() {
               enjoy teaching coding to non-programmers,alongside where I focus
               on tech, creative vlogs, and personal development.
             </p>
-            {/* <p>
-              In addition to coding, I also make{" "}
-              <Link
-                className="underline"
-                href="https://www.youtube.com/channel/@brianruizy"
-              >
-                YouTube
-              </Link>{" "}
-              videos, where I focus on tech gear, creative vlogs, and a bit of
-              personal development.
-            </p> */}
+
             <p>
-              When I&apos;m not at my desk I am probably lifting weights,
-              playing soccer, or at a coffee shop :)
+              When I am not at my desk I am probably lifting weights, playing
+              soccer, or at a coffee shop :)
             </p>
           </div>
         </Section>
@@ -142,7 +132,7 @@ export default function About() {
             <p>
               I started my career teaching others how to code, which I will
               always be appreciative of. Then I worked at a few small local
-              companies. Now I&apos;m a full stack engineer currently working at{" "}
+              companies. Now I am a full stack engineer currently working at{" "}
               <Link
                 className="underline"
                 href="https://slove-ticket.vercel.app/"
