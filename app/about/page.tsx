@@ -143,8 +143,11 @@ export default function About() {
               I started my career teaching others how to code, which I will
               always be appreciative of. Then I worked at a few small local
               companies. Now I&apos;m a full stack engineer currently working at{" "}
-              <Link className="underline" href="https://hines.com">
-                Hines
+              <Link
+                className="underline"
+                href="https://slove-ticket.vercel.app/"
+              >
+                Slove Ticket
               </Link>
               , one of the largest private real estate investors in the world.
             </p>
