@@ -76,7 +76,7 @@ export default async function Home() {
           </li>
         </ul>
       </div>
-      <div
+      {/* <div
         className="flex animate-in flex-col gap-8"
         style={{ "--index": 3 } as React.CSSProperties}
       >
@@ -88,7 +88,7 @@ export default async function Home() {
         >
           See All
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
