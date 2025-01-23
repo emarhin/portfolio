@@ -136,7 +136,7 @@ export default function About() {
         <Section heading="Work" headingAlignment="left">
           <div className="flex w-full flex-col gap-8">
             <p>
-              {new Date().getFullYear() - 2019}+ years of professional
+              {new Date().getFullYear() - 2017}+ years of professional
               development experience.
             </p>
             <p>
