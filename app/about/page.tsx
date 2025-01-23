@@ -153,31 +153,31 @@ export default function About() {
 
 const workplaces = [
   {
-    title: "Full Stack Engineer",
-    company: "Hines",
-    time: "2022 -",
-    imageSrc: hinesLogo,
-    link: "https://hines.com",
+    title: "Software Engineer",
+    company: "COZY TECH SOLUTION",
+    time: "May 2019 - April 2023",
+    imageSrc: hinesLogo, // Replace with the relevant image if necessary
+    link: "https://www.cozytechsolution.com", // Adjust the link as needed
   },
   {
     title: "Software Engineer",
-    company: "PeriShip",
-    time: "2021 - 2022",
-    imageSrc: perishipLogo,
-    link: "https://peripharma.com/",
+    company: "EZA4SON GROUP",
+    time: "April 2018 - April 2019",
+    imageSrc: perishipLogo, // Replace with the relevant image if necessary
+    link: "https://www.eza4son.com", // Adjust the link as needed
   },
   {
-    title: "Python Developer",
-    company: "CAMS",
-    time: "2019 - 2020",
-    imageSrc: camsLogo,
-    link: "https://camstex.com",
+    title: "Software Engineer",
+    company: "XACENT GLOBAL TECH",
+    time: "Dec 2017 - Mar 2018",
+    imageSrc: camsLogo, // Replace with the relevant image if necessary
+    link: "https://www.xacentglobaltech.com", // Adjust the link as needed
   },
   {
-    title: "Coding Camp Instructor",
-    company: "University of Houston",
-    time: "2019",
-    imageSrc: uhdLogo,
-    link: "https://www.uhd.edu/",
+    title: "B.S. Computer Software Engineering",
+    company: "Ghana Community Technology",
+    time: "2022",
+    imageSrc: "", // Add relevant image if available
+    link: "", // Link for educational institution (optional)
   },
 ];

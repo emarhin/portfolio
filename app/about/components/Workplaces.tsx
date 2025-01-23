@@ -19,7 +19,7 @@ function Workplace({ title, company, imageSrc, time, link }: Workplace) {
   const content = (
     <>
       <div className="flex items-center gap-4">
-        <Image
+        {/* <Image
           src={imageSrc}
           alt={company}
           width={48}
@@ -28,7 +28,7 @@ function Workplace({ title, company, imageSrc, time, link }: Workplace) {
             "rounded-full",
             company === "University of Houston" && "bg-neutral-50"
           )}
-        />
+        /> */}
         <div className="flex flex-col gap-px">
           <p className={link ? "external-arrow" : ""}>{title}</p>
           <p className="text-secondary">{company}</p>
@@ -42,7 +42,7 @@ function Workplace({ title, company, imageSrc, time, link }: Workplace) {
       {link ? (
         <Link
           href={link}
-          className="flex justify-between w-full px-3 py-2 -mx-3 -my-2 no-underline"
+          className="-mx-3 -my-2 flex w-full justify-between px-3 py-2 no-underline"
         >
           {content}
         </Link>
@@ -55,7 +55,7 @@ function Workplace({ title, company, imageSrc, time, link }: Workplace) {
 
 export default function Workplaces({ items }: { items: Workplace[] }) {
   return (
-    <ul className="flex flex-col gap-8 animated-list">
+    <ul className="animated-list flex flex-col gap-8">
       {items.map(Workplace)}
     </ul>
   );
